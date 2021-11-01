@@ -1,0 +1,39 @@
+{
+  "fields" : {
+    "personalInfo" : {
+      "clientFirstName": "customer_firstname",
+      "clientLastName": "customer_lastname",
+      "email": "email",
+      "password": "passwd",
+      "dates": {
+        "day": "days",
+        "month": "months",
+        "year": "years",
+        "options":{
+          "dayOption": "1",
+          "monthOption": "1",
+          "yearOption": "2021"
+        }
+      }
+    },
+    "addressInfo" : {
+      "firstName": "firstname",
+      "lastName": "lastname",
+      "company": "company",
+      "address": "address1",
+      "addressDetail": "address2",
+      "city": "city",
+      "state": "id_state",
+      "zip": "postcode",
+      "country": "id_country",
+      "additionalInfo": "other",
+      "homePhone" : "phone",
+      "phone" : "phone_mobile",
+      "assign" : "alias"
+    }
+  },
+
+  "clientsData" : {
+
+  }
+}

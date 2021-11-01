@@ -1,0 +1,467 @@
+2021-10-31T22:40:43.109Z INFO @wdio/local-runner: Run worker command: run
+2021-10-31T22:40:43.112Z DEBUG @wdio/config:utils: Couldn't find ts-node package, no TypeScript compiling
+2021-10-31T22:40:43.117Z DEBUG @wdio/local-runner:utils: init remote session
+2021-10-31T22:40:44.285Z DEBUG @wdio/local-runner:utils: init remote session
+2021-10-31T22:40:44.299Z INFO devtools:puppeteer: Initiate new session using the DevTools protocol
+2021-10-31T22:40:44.300Z INFO devtools: Launch Google Chrome with flags: --enable-automation --disable-popup-blocking --disable-extensions --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-sync --metrics-recording-only --disable-default-apps --mute-audio --no-first-run --no-default-browser-check --disable-hang-monitor --disable-prompt-on-repost --disable-client-side-phishing-detection --password-store=basic --use-mock-keychain --disable-component-extensions-with-background-pages --disable-breakpad --disable-dev-shm-usage --disable-ipc-flooding-protection --disable-renderer-backgrounding --force-fieldtrials=*BackgroundTracing/default/ --enable-features=NetworkService,NetworkServiceInProcess --disable-features=site-per-process,TranslateUI,BlinkGenPropertyTrees --window-position=0,0 --window-size=1200,900 --window-size=1920,1080
+2021-10-31T22:40:44.841Z INFO devtools: Connect Puppeteer with browser on port 51307
+2021-10-31T22:40:44.924Z INFO devtools: COMMAND navigateTo("http://automationpractice.com/index.php")
+2021-10-31T22:40:49.261Z INFO devtools: RESULT null
+2021-10-31T22:40:49.263Z INFO devtools: COMMAND findElement("css selector", ".login")
+2021-10-31T22:40:49.265Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-1' }
+2021-10-31T22:40:49.274Z INFO devtools: COMMAND executeScript(<fn>, <object>)
+2021-10-31T22:40:49.278Z INFO devtools: RESULT true
+2021-10-31T22:40:49.279Z INFO devtools: COMMAND executeScript(<fn>, <object>)
+2021-10-31T22:40:49.281Z INFO devtools: RESULT true
+2021-10-31T22:40:49.282Z INFO devtools: COMMAND executeScript(<fn>, <object>)
+2021-10-31T22:40:49.284Z INFO devtools: RESULT true
+2021-10-31T22:40:49.285Z INFO devtools: COMMAND elementClick("ELEMENT-1")
+2021-10-31T22:40:49.315Z INFO devtools: RESULT null
+2021-10-31T22:40:51.361Z INFO devtools: COMMAND findElement("css selector", "#email_create")
+2021-10-31T22:40:51.362Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-2' }
+2021-10-31T22:40:51.365Z INFO devtools: COMMAND executeScript(<fn>, <object>)
+2021-10-31T22:40:51.367Z INFO devtools: RESULT true
+2021-10-31T22:40:51.368Z INFO devtools: COMMAND elementClear("ELEMENT-2")
+2021-10-31T22:40:51.370Z INFO devtools: RESULT null
+2021-10-31T22:40:51.371Z INFO devtools: COMMAND elementClear("ELEMENT-2")
+2021-10-31T22:40:51.372Z INFO devtools: RESULT null
+2021-10-31T22:40:51.376Z INFO devtools: COMMAND elementSendKeys("ELEMENT-2", "autotest14429626@test.com")
+2021-10-31T22:40:51.415Z INFO devtools: RESULT null
+2021-10-31T22:40:51.416Z INFO devtools: COMMAND findElement("css selector", "#SubmitCreate")
+2021-10-31T22:40:51.416Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-3' }
+2021-10-31T22:40:51.419Z INFO devtools: COMMAND executeScript(<fn>, <object>)
+2021-10-31T22:40:51.420Z INFO devtools: RESULT true
+2021-10-31T22:40:51.421Z INFO devtools: COMMAND executeScript(<fn>, <object>)
+2021-10-31T22:40:51.423Z INFO devtools: RESULT true
+2021-10-31T22:40:51.424Z INFO devtools: COMMAND executeScript(<fn>, <object>)
+2021-10-31T22:40:51.426Z INFO devtools: RESULT true
+2021-10-31T22:40:51.427Z INFO devtools: COMMAND elementClick("ELEMENT-3")
+2021-10-31T22:40:51.519Z INFO devtools: RESULT null
+2021-10-31T22:40:51.521Z INFO devtools: COMMAND findElement("css selector", "[for="id_gender1"]")
+2021-10-31T22:40:51.522Z INFO devtools: RESULT Error: Element with selector "[for="id_gender1"]" not found
+    at DevToolsDriver.findElement (C:\Users\sodap\OneDrive\Рабочий стол\e2e\node_modules\devtools\build\utils.js:78:16)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:94:5)
+    at Browser.wrappedCommand (C:\Users\sodap\OneDrive\Рабочий стол\e2e\node_modules\devtools\build\devtoolsdriver.js:62:26)
+    at Browser.$ (C:\Users\sodap\OneDrive\Рабочий стол\e2e\node_modules\webdriverio\build\commands\browser\$.js:10:17)
+    at Browser.runCommandWithHooks (C:\Users\sodap\OneDrive\Рабочий стол\e2e\node_modules\@wdio\sync\build\wrapCommand.js:70:25)
+2021-10-31T22:40:51.526Z INFO devtools: COMMAND findElement("css selector", "[for="id_gender1"]")
+2021-10-31T22:40:51.527Z INFO devtools: RESULT Error: Element with selector "[for="id_gender1"]" not found
+    at DevToolsDriver.findElement (C:\Users\sodap\OneDrive\Рабочий стол\e2e\node_modules\devtools\build\utils.js:78:16)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:94:5)
+    at Browser.wrappedCommand (C:\Users\sodap\OneDrive\Рабочий стол\e2e\node_modules\devtools\build\devtoolsdriver.js:62:26)
+    at Browser.$ (C:\Users\sodap\OneDrive\Рабочий стол\e2e\node_modules\webdriverio\build\commands\browser\$.js:10:17)
+    at Browser.runCommandWithHooks (C:\Users\sodap\OneDrive\Рабочий стол\e2e\node_modules\@wdio\sync\build\wrapCommand.js:70:25)
+2021-10-31T22:40:52.026Z INFO devtools: COMMAND findElement("css selector", "[for="id_gender1"]")
+2021-10-31T22:40:52.027Z INFO devtools: RESULT Error: Element with selector "[for="id_gender1"]" not found
+    at DevToolsDriver.findElement (C:\Users\sodap\OneDrive\Рабочий стол\e2e\node_modules\devtools\build\utils.js:78:16)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:94:5)
+    at Browser.wrappedCommand (C:\Users\sodap\OneDrive\Рабочий стол\e2e\node_modules\devtools\build\devtoolsdriver.js:62:26)
+    at Browser.$ (C:\Users\sodap\OneDrive\Рабочий стол\e2e\node_modules\webdriverio\build\commands\browser\$.js:10:17)
+    at Browser.runCommandWithHooks (C:\Users\sodap\OneDrive\Рабочий стол\e2e\node_modules\@wdio\sync\build\wrapCommand.js:70:25)
+2021-10-31T22:40:52.526Z INFO devtools: COMMAND findElement("css selector", "[for="id_gender1"]")
+2021-10-31T22:40:52.527Z INFO devtools: RESULT Error: Element with selector "[for="id_gender1"]" not found
+    at DevToolsDriver.findElement (C:\Users\sodap\OneDrive\Рабочий стол\e2e\node_modules\devtools\build\utils.js:78:16)
+    at processTicksAndRejections (node:internal/process/task_queues:94:5)
+    at Browser.wrappedCommand (C:\Users\sodap\OneDrive\Рабочий стол\e2e\node_modules\devtools\build\devtoolsdriver.js:62:26)
+    at Browser.$ (C:\Users\sodap\OneDrive\Рабочий стол\e2e\node_modules\webdriverio\build\commands\browser\$.js:10:17)
+    at Browser.runCommandWithHooks (C:\Users\sodap\OneDrive\Рабочий стол\e2e\node_modules\@wdio\sync\build\wrapCommand.js:70:25)
+2021-10-31T22:40:53.027Z INFO devtools: COMMAND findElement("css selector", "[for="id_gender1"]")
+2021-10-31T22:40:53.028Z INFO devtools: RESULT Error: Element with selector "[for="id_gender1"]" not found
+    at DevToolsDriver.findElement (C:\Users\sodap\OneDrive\Рабочий стол\e2e\node_modules\devtools\build\utils.js:78:16)
+    at processTicksAndRejections (node:internal/process/task_queues:94:5)
+    at Browser.wrappedCommand (C:\Users\sodap\OneDrive\Рабочий стол\e2e\node_modules\devtools\build\devtoolsdriver.js:62:26)
+    at Browser.$ (C:\Users\sodap\OneDrive\Рабочий стол\e2e\node_modules\webdriverio\build\commands\browser\$.js:10:17)
+    at Browser.runCommandWithHooks (C:\Users\sodap\OneDrive\Рабочий стол\e2e\node_modules\@wdio\sync\build\wrapCommand.js:70:25)
+2021-10-31T22:40:53.529Z INFO devtools: COMMAND findElement("css selector", "[for="id_gender1"]")
+2021-10-31T22:40:53.529Z INFO devtools: RESULT Error: Element with selector "[for="id_gender1"]" not found
+    at DevToolsDriver.findElement (C:\Users\sodap\OneDrive\Рабочий стол\e2e\node_modules\devtools\build\utils.js:78:16)
+    at processTicksAndRejections (node:internal/process/task_queues:94:5)
+    at Browser.wrappedCommand (C:\Users\sodap\OneDrive\Рабочий стол\e2e\node_modules\devtools\build\devtoolsdriver.js:62:26)
+    at Browser.$ (C:\Users\sodap\OneDrive\Рабочий стол\e2e\node_modules\webdriverio\build\commands\browser\$.js:10:17)
+    at Browser.runCommandWithHooks (C:\Users\sodap\OneDrive\Рабочий стол\e2e\node_modules\@wdio\sync\build\wrapCommand.js:70:25)
+2021-10-31T22:40:54.026Z INFO devtools: COMMAND findElement("css selector", "[for="id_gender1"]")
+2021-10-31T22:40:54.027Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-4' }
+2021-10-31T22:40:54.030Z INFO devtools: COMMAND executeScript(<fn>, <object>)
+2021-10-31T22:40:54.033Z INFO devtools: RESULT true
+2021-10-31T22:40:54.034Z INFO devtools: COMMAND executeScript(<fn>, <object>)
+2021-10-31T22:40:54.035Z INFO devtools: RESULT true
+2021-10-31T22:40:54.037Z INFO devtools: COMMAND executeScript(<fn>, <object>)
+2021-10-31T22:40:54.040Z INFO devtools: RESULT true
+2021-10-31T22:40:54.040Z INFO devtools: COMMAND elementClick("ELEMENT-4")
+2021-10-31T22:40:54.065Z INFO devtools: RESULT null
+2021-10-31T22:40:54.066Z INFO devtools: COMMAND findElement("css selector", "[id="customer_firstname"]")
+2021-10-31T22:40:54.067Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-5' }
+2021-10-31T22:40:54.072Z INFO devtools: COMMAND executeScript(<fn>, <object>)
+2021-10-31T22:40:54.074Z INFO devtools: RESULT true
+2021-10-31T22:40:54.075Z INFO devtools: COMMAND elementClear("ELEMENT-5")
+2021-10-31T22:40:54.077Z INFO devtools: RESULT null
+2021-10-31T22:40:54.078Z INFO devtools: COMMAND elementClear("ELEMENT-5")
+2021-10-31T22:40:54.079Z INFO devtools: RESULT null
+2021-10-31T22:40:54.080Z INFO devtools: COMMAND elementSendKeys("ELEMENT-5", "Grayson")
+2021-10-31T22:40:54.101Z INFO devtools: RESULT null
+2021-10-31T22:40:54.102Z INFO devtools: COMMAND findElement("css selector", "[id="customer_lastname"]")
+2021-10-31T22:40:54.103Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-6' }
+2021-10-31T22:40:54.107Z INFO devtools: COMMAND executeScript(<fn>, <object>)
+2021-10-31T22:40:54.109Z INFO devtools: RESULT true
+2021-10-31T22:40:54.110Z INFO devtools: COMMAND elementClear("ELEMENT-6")
+2021-10-31T22:40:54.112Z INFO devtools: RESULT null
+2021-10-31T22:40:54.113Z INFO devtools: COMMAND elementClear("ELEMENT-6")
+2021-10-31T22:40:54.115Z INFO devtools: RESULT null
+2021-10-31T22:40:54.116Z INFO devtools: COMMAND elementSendKeys("ELEMENT-6", "Shields")
+2021-10-31T22:40:54.138Z INFO devtools: RESULT null
+2021-10-31T22:40:54.140Z INFO devtools: COMMAND findElement("css selector", "[id="email"]")
+2021-10-31T22:40:54.140Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-7' }
+2021-10-31T22:40:54.143Z INFO devtools: COMMAND executeScript(<fn>, <object>)
+2021-10-31T22:40:54.145Z INFO devtools: RESULT true
+2021-10-31T22:40:54.145Z INFO devtools: COMMAND elementClear("ELEMENT-7")
+2021-10-31T22:40:54.147Z INFO devtools: RESULT null
+2021-10-31T22:40:54.148Z INFO devtools: COMMAND elementClear("ELEMENT-7")
+2021-10-31T22:40:54.149Z INFO devtools: RESULT null
+2021-10-31T22:40:54.150Z INFO devtools: COMMAND elementSendKeys("ELEMENT-7", "autotest14429626@test.com")
+2021-10-31T22:40:54.209Z INFO devtools: RESULT null
+2021-10-31T22:40:54.210Z INFO devtools: COMMAND findElement("css selector", "[id="passwd"]")
+2021-10-31T22:40:54.211Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-8' }
+2021-10-31T22:40:54.213Z INFO devtools: COMMAND executeScript(<fn>, <object>)
+2021-10-31T22:40:54.215Z INFO devtools: RESULT true
+2021-10-31T22:40:54.216Z INFO devtools: COMMAND elementClear("ELEMENT-8")
+2021-10-31T22:40:54.217Z INFO devtools: RESULT null
+2021-10-31T22:40:54.218Z INFO devtools: COMMAND elementClear("ELEMENT-8")
+2021-10-31T22:40:54.220Z INFO devtools: RESULT null
+2021-10-31T22:40:54.220Z INFO devtools: COMMAND elementSendKeys("ELEMENT-8", "<Screenshot[base64]>")
+2021-10-31T22:40:54.246Z INFO devtools: RESULT null
+2021-10-31T22:40:54.246Z INFO devtools: COMMAND findElement("css selector", "[id="days"]")
+2021-10-31T22:40:54.248Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-9' }
+2021-10-31T22:40:54.251Z INFO devtools: COMMAND findElementFromElement("ELEMENT-9", "xpath", "./option[normalize-space(@value) = "1"]|./optgroup/option[normalize-space(@value) = "1"]")
+2021-10-31T22:40:54.255Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-10' }
+2021-10-31T22:40:54.256Z INFO devtools: COMMAND elementClick("ELEMENT-10")
+2021-10-31T22:40:54.260Z INFO devtools: COMMAND findElement("css selector", "[id="months"]")
+2021-10-31T22:40:54.261Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-11' }
+2021-10-31T22:40:54.263Z INFO devtools: COMMAND findElementFromElement("ELEMENT-11", "xpath", "./option[normalize-space(@value) = "1"]|./optgroup/option[normalize-space(@value) = "1"]")
+2021-10-31T22:40:54.265Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-12' }
+2021-10-31T22:40:54.265Z INFO devtools: COMMAND elementClick("ELEMENT-12")
+2021-10-31T22:40:54.272Z INFO devtools: COMMAND findElement("css selector", "[id="years"]")
+2021-10-31T22:40:54.272Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-13' }
+2021-10-31T22:40:54.305Z INFO devtools: COMMAND findElementFromElement("ELEMENT-13", "xpath", "./option[normalize-space(@value) = "2021"]|./optgroup/option[normalize-space(@value) = "2021"]")
+2021-10-31T22:40:54.309Z INFO devtools: COMMAND findElement("css selector", "[id="years"]")
+2021-10-31T22:40:54.310Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-14' }
+2021-10-31T22:40:54.315Z INFO devtools: COMMAND findElementFromElement("ELEMENT-13", "xpath", "./option[normalize-space(@value) = "2021"]|./optgroup/option[normalize-space(@value) = "2021"]")
+2021-10-31T22:40:54.316Z INFO devtools: COMMAND findElement("css selector", "[id="years"]")
+2021-10-31T22:40:54.317Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-15' }
+2021-10-31T22:40:54.321Z INFO devtools: COMMAND findElementFromElement("ELEMENT-15", "xpath", "./option[normalize-space(@value) = "2021"]|./optgroup/option[normalize-space(@value) = "2021"]")
+2021-10-31T22:40:54.324Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-16' }
+2021-10-31T22:40:54.325Z INFO devtools: COMMAND elementClick("ELEMENT-16")
+2021-10-31T22:40:54.331Z INFO devtools: COMMAND findElement("css selector", "[id="firstname"]")
+2021-10-31T22:40:54.331Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-17' }
+2021-10-31T22:40:54.333Z INFO devtools: COMMAND executeScript(<fn>, <object>)
+2021-10-31T22:40:54.335Z INFO devtools: RESULT true
+2021-10-31T22:40:54.336Z INFO devtools: COMMAND elementClear("ELEMENT-17")
+2021-10-31T22:40:54.339Z INFO devtools: RESULT null
+2021-10-31T22:40:54.340Z INFO devtools: COMMAND elementClear("ELEMENT-17")
+2021-10-31T22:40:54.341Z INFO devtools: RESULT null
+2021-10-31T22:40:54.342Z INFO devtools: COMMAND elementSendKeys("ELEMENT-17", "Grayson")
+2021-10-31T22:40:54.369Z INFO devtools: RESULT null
+2021-10-31T22:40:54.372Z INFO devtools: COMMAND findElement("css selector", "[id="lastname"]")
+2021-10-31T22:40:54.373Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-18' }
+2021-10-31T22:40:54.375Z INFO devtools: COMMAND executeScript(<fn>, <object>)
+2021-10-31T22:40:54.377Z INFO devtools: RESULT true
+2021-10-31T22:40:54.378Z INFO devtools: COMMAND elementClear("ELEMENT-18")
+2021-10-31T22:40:54.379Z INFO devtools: RESULT null
+2021-10-31T22:40:54.380Z INFO devtools: COMMAND elementClear("ELEMENT-18")
+2021-10-31T22:40:54.381Z INFO devtools: RESULT null
+2021-10-31T22:40:54.382Z INFO devtools: COMMAND elementSendKeys("ELEMENT-18", "Shields")
+2021-10-31T22:40:54.404Z INFO devtools: RESULT null
+2021-10-31T22:40:54.405Z INFO devtools: COMMAND findElement("css selector", "[id="company"]")
+2021-10-31T22:40:54.406Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-19' }
+2021-10-31T22:40:54.409Z INFO devtools: COMMAND executeScript(<fn>, <object>)
+2021-10-31T22:40:54.412Z INFO devtools: RESULT true
+2021-10-31T22:40:54.413Z INFO devtools: COMMAND elementClear("ELEMENT-19")
+2021-10-31T22:40:54.414Z INFO devtools: RESULT null
+2021-10-31T22:40:54.415Z INFO devtools: COMMAND elementClear("ELEMENT-19")
+2021-10-31T22:40:54.416Z INFO devtools: RESULT null
+2021-10-31T22:40:54.418Z INFO devtools: COMMAND elementSendKeys("ELEMENT-19", "Ward, Kuhic and Kessler")
+2021-10-31T22:40:54.479Z INFO devtools: RESULT null
+2021-10-31T22:40:54.480Z INFO devtools: COMMAND findElement("css selector", "[id="address1"]")
+2021-10-31T22:40:54.481Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-20' }
+2021-10-31T22:40:54.483Z INFO devtools: COMMAND executeScript(<fn>, <object>)
+2021-10-31T22:40:54.485Z INFO devtools: RESULT true
+2021-10-31T22:40:54.486Z INFO devtools: COMMAND elementClear("ELEMENT-20")
+2021-10-31T22:40:54.490Z INFO devtools: RESULT null
+2021-10-31T22:40:54.491Z INFO devtools: COMMAND elementClear("ELEMENT-20")
+2021-10-31T22:40:54.493Z INFO devtools: RESULT null
+2021-10-31T22:40:54.508Z INFO devtools: COMMAND elementSendKeys("ELEMENT-20", "Giles Locks")
+2021-10-31T22:40:54.541Z INFO devtools: RESULT null
+2021-10-31T22:40:54.542Z INFO devtools: COMMAND findElement("css selector", "[id="address2"]")
+2021-10-31T22:40:54.543Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-21' }
+2021-10-31T22:40:54.546Z INFO devtools: COMMAND executeScript(<fn>, <object>)
+2021-10-31T22:40:54.548Z INFO devtools: RESULT true
+2021-10-31T22:40:54.549Z INFO devtools: COMMAND elementClear("ELEMENT-21")
+2021-10-31T22:40:54.550Z INFO devtools: RESULT null
+2021-10-31T22:40:54.551Z INFO devtools: COMMAND elementClear("ELEMENT-21")
+2021-10-31T22:40:54.553Z INFO devtools: RESULT null
+2021-10-31T22:40:54.554Z INFO devtools: COMMAND elementSendKeys("ELEMENT-21", "Giles Locks")
+2021-10-31T22:40:54.592Z INFO devtools: RESULT null
+2021-10-31T22:40:54.593Z INFO devtools: COMMAND findElement("css selector", "[id="city"]")
+2021-10-31T22:40:54.593Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-22' }
+2021-10-31T22:40:54.595Z INFO devtools: COMMAND executeScript(<fn>, <object>)
+2021-10-31T22:40:54.598Z INFO devtools: RESULT true
+2021-10-31T22:40:54.599Z INFO devtools: COMMAND elementClear("ELEMENT-22")
+2021-10-31T22:40:54.600Z INFO devtools: RESULT null
+2021-10-31T22:40:54.601Z INFO devtools: COMMAND elementClear("ELEMENT-22")
+2021-10-31T22:40:54.603Z INFO devtools: RESULT null
+2021-10-31T22:40:54.605Z INFO devtools: COMMAND elementSendKeys("ELEMENT-22", "Berenicechester")
+2021-10-31T22:40:54.645Z INFO devtools: RESULT null
+2021-10-31T22:40:54.645Z INFO devtools: COMMAND findElement("css selector", "[id="id_state"]")
+2021-10-31T22:40:54.646Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-23' }
+2021-10-31T22:40:54.648Z INFO devtools: COMMAND findElementFromElement("ELEMENT-23", "xpath", "./option[normalize-space(@value) = "1"]|./optgroup/option[normalize-space(@value) = "1"]")
+2021-10-31T22:40:54.658Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-24' }
+2021-10-31T22:40:54.659Z INFO devtools: COMMAND elementClick("ELEMENT-24")
+2021-10-31T22:40:54.664Z INFO devtools: COMMAND findElement("css selector", "[id="postcode"]")
+2021-10-31T22:40:54.665Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-25' }
+2021-10-31T22:40:54.666Z INFO devtools: COMMAND executeScript(<fn>, <object>)
+2021-10-31T22:40:54.668Z INFO devtools: RESULT true
+2021-10-31T22:40:54.669Z INFO devtools: COMMAND elementClear("ELEMENT-25")
+2021-10-31T22:40:54.672Z INFO devtools: RESULT null
+2021-10-31T22:40:54.673Z INFO devtools: COMMAND elementClear("ELEMENT-25")
+2021-10-31T22:40:54.675Z INFO devtools: RESULT null
+2021-10-31T22:40:54.675Z INFO devtools: COMMAND elementSendKeys("ELEMENT-25", "00000")
+2021-10-31T22:40:54.698Z INFO devtools: RESULT null
+2021-10-31T22:40:54.699Z INFO devtools: COMMAND findElement("css selector", "[id="other"]")
+2021-10-31T22:40:54.700Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-26' }
+2021-10-31T22:40:54.702Z INFO devtools: COMMAND executeScript(<fn>, <object>)
+2021-10-31T22:40:54.705Z INFO devtools: RESULT true
+2021-10-31T22:40:54.706Z INFO devtools: COMMAND elementClear("ELEMENT-26")
+2021-10-31T22:40:54.707Z INFO devtools: RESULT null
+2021-10-31T22:40:54.708Z INFO devtools: COMMAND elementClear("ELEMENT-26")
+2021-10-31T22:40:54.709Z INFO devtools: RESULT null
+2021-10-31T22:40:54.710Z INFO devtools: COMMAND elementSendKeys("ELEMENT-26", "9126322046200")
+2021-10-31T22:40:54.730Z INFO devtools: RESULT null
+2021-10-31T22:40:54.731Z INFO devtools: COMMAND findElement("css selector", "[id="phone_mobile"]")
+2021-10-31T22:40:54.732Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-27' }
+2021-10-31T22:40:54.733Z INFO devtools: COMMAND executeScript(<fn>, <object>)
+2021-10-31T22:40:54.735Z INFO devtools: RESULT true
+2021-10-31T22:40:54.736Z INFO devtools: COMMAND elementClear("ELEMENT-27")
+2021-10-31T22:40:54.739Z INFO devtools: RESULT null
+2021-10-31T22:40:54.739Z INFO devtools: COMMAND elementClear("ELEMENT-27")
+2021-10-31T22:40:54.741Z INFO devtools: RESULT null
+2021-10-31T22:40:54.741Z INFO devtools: COMMAND elementSendKeys("ELEMENT-27", "9126322046200")
+2021-10-31T22:40:54.779Z INFO devtools: RESULT null
+2021-10-31T22:40:54.780Z INFO devtools: COMMAND findElement("css selector", "[id="phone"]")
+2021-10-31T22:40:54.780Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-28' }
+2021-10-31T22:40:54.782Z INFO devtools: COMMAND executeScript(<fn>, <object>)
+2021-10-31T22:40:54.784Z INFO devtools: RESULT true
+2021-10-31T22:40:54.784Z INFO devtools: COMMAND elementClear("ELEMENT-28")
+2021-10-31T22:40:54.785Z INFO devtools: RESULT null
+2021-10-31T22:40:54.786Z INFO devtools: COMMAND elementClear("ELEMENT-28")
+2021-10-31T22:40:54.789Z INFO devtools: RESULT null
+2021-10-31T22:40:54.790Z INFO devtools: COMMAND elementSendKeys("ELEMENT-28", "9126322046200")
+2021-10-31T22:40:54.823Z INFO devtools: RESULT null
+2021-10-31T22:40:54.824Z INFO devtools: COMMAND findElement("css selector", "[id="alias"]")
+2021-10-31T22:40:54.824Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-29' }
+2021-10-31T22:40:54.826Z INFO devtools: COMMAND executeScript(<fn>, <object>)
+2021-10-31T22:40:54.827Z INFO devtools: RESULT true
+2021-10-31T22:40:54.828Z INFO devtools: COMMAND elementClear("ELEMENT-29")
+2021-10-31T22:40:54.829Z INFO devtools: RESULT null
+2021-10-31T22:40:54.830Z INFO devtools: COMMAND elementClear("ELEMENT-29")
+2021-10-31T22:40:54.831Z INFO devtools: RESULT null
+2021-10-31T22:40:54.831Z INFO devtools: COMMAND elementSendKeys("ELEMENT-29", "Giles Locks")
+2021-10-31T22:40:54.861Z INFO devtools: RESULT null
+2021-10-31T22:40:54.862Z INFO devtools: COMMAND findElement("css selector", "#submitAccount")
+2021-10-31T22:40:54.862Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-30' }
+2021-10-31T22:40:54.864Z INFO devtools: COMMAND executeScript(<fn>, <object>)
+2021-10-31T22:40:54.866Z INFO devtools: RESULT true
+2021-10-31T22:40:54.866Z INFO devtools: COMMAND executeScript(<fn>, <object>)
+2021-10-31T22:40:54.868Z INFO devtools: RESULT true
+2021-10-31T22:40:54.869Z INFO devtools: COMMAND executeScript(<fn>, <object>)
+2021-10-31T22:40:54.873Z INFO devtools: RESULT true
+2021-10-31T22:40:54.874Z INFO devtools: COMMAND elementClick("ELEMENT-30")
+2021-10-31T22:40:54.900Z INFO devtools: RESULT null
+2021-10-31T22:40:56.462Z INFO devtools: COMMAND findElement("xpath", "//*[contains(text(),"Welcome to your account.")]")
+2021-10-31T22:40:56.464Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-31' }
+2021-10-31T22:40:56.466Z INFO devtools: COMMAND executeScript(<fn>, <object>)
+2021-10-31T22:40:56.468Z INFO devtools: RESULT true
+2021-10-31T22:40:56.469Z INFO devtools: COMMAND findElement("css selector", ".logout")
+2021-10-31T22:40:56.470Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-32' }
+2021-10-31T22:40:56.472Z INFO devtools: COMMAND executeScript(<fn>, <object>)
+2021-10-31T22:40:56.473Z INFO devtools: RESULT true
+2021-10-31T22:40:56.474Z INFO devtools: COMMAND executeScript(<fn>, <object>)
+2021-10-31T22:40:56.476Z INFO devtools: RESULT true
+2021-10-31T22:40:56.477Z INFO devtools: COMMAND executeScript(<fn>, <object>)
+2021-10-31T22:40:56.478Z INFO devtools: RESULT true
+2021-10-31T22:40:56.479Z INFO devtools: COMMAND elementClick("ELEMENT-32")
+2021-10-31T22:40:56.556Z INFO devtools: RESULT null
+2021-10-31T22:41:00.376Z INFO devtools: COMMAND findElement("css selector", "[id="email"]")
+2021-10-31T22:41:00.377Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-33' }
+2021-10-31T22:41:00.379Z INFO devtools: COMMAND executeScript(<fn>, <object>)
+2021-10-31T22:41:00.381Z INFO devtools: RESULT true
+2021-10-31T22:41:00.381Z INFO devtools: COMMAND elementClear("ELEMENT-33")
+2021-10-31T22:41:00.382Z INFO devtools: RESULT null
+2021-10-31T22:41:00.383Z INFO devtools: COMMAND elementClear("ELEMENT-33")
+2021-10-31T22:41:00.384Z INFO devtools: RESULT null
+2021-10-31T22:41:00.386Z INFO devtools: COMMAND elementSendKeys("ELEMENT-33", "autotest14429626@test.com")
+2021-10-31T22:41:00.423Z INFO devtools: RESULT null
+2021-10-31T22:41:00.423Z INFO devtools: COMMAND findElement("css selector", "[id="passwd"]")
+2021-10-31T22:41:00.424Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-34' }
+2021-10-31T22:41:00.426Z INFO devtools: COMMAND executeScript(<fn>, <object>)
+2021-10-31T22:41:00.427Z INFO devtools: RESULT true
+2021-10-31T22:41:00.428Z INFO devtools: COMMAND elementClear("ELEMENT-34")
+2021-10-31T22:41:00.429Z INFO devtools: RESULT null
+2021-10-31T22:41:00.430Z INFO devtools: COMMAND elementClear("ELEMENT-34")
+2021-10-31T22:41:00.431Z INFO devtools: RESULT null
+2021-10-31T22:41:00.431Z INFO devtools: COMMAND elementSendKeys("ELEMENT-34", "<Screenshot[base64]>")
+2021-10-31T22:41:00.450Z INFO devtools: RESULT null
+2021-10-31T22:41:00.451Z INFO devtools: COMMAND findElement("css selector", "#SubmitLogin")
+2021-10-31T22:41:00.451Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-35' }
+2021-10-31T22:41:00.454Z INFO devtools: COMMAND executeScript(<fn>, <object>)
+2021-10-31T22:41:00.455Z INFO devtools: RESULT true
+2021-10-31T22:41:00.456Z INFO devtools: COMMAND executeScript(<fn>, <object>)
+2021-10-31T22:41:00.457Z INFO devtools: RESULT true
+2021-10-31T22:41:00.458Z INFO devtools: COMMAND executeScript(<fn>, <object>)
+2021-10-31T22:41:00.460Z INFO devtools: RESULT true
+2021-10-31T22:41:00.460Z INFO devtools: COMMAND elementClick("ELEMENT-35")
+2021-10-31T22:41:00.478Z INFO devtools: RESULT null
+2021-10-31T22:41:02.071Z INFO devtools: COMMAND findElement("css selector", "[title="Information"]")
+2021-10-31T22:41:02.072Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-36' }
+2021-10-31T22:41:02.074Z INFO devtools: COMMAND executeScript(<fn>, <object>)
+2021-10-31T22:41:02.075Z INFO devtools: RESULT true
+2021-10-31T22:41:02.076Z INFO devtools: COMMAND executeScript(<fn>, <object>)
+2021-10-31T22:41:02.077Z INFO devtools: RESULT true
+2021-10-31T22:41:02.078Z INFO devtools: COMMAND executeScript(<fn>, <object>)
+2021-10-31T22:41:02.079Z INFO devtools: RESULT true
+2021-10-31T22:41:02.080Z INFO devtools: COMMAND elementClick("ELEMENT-36")
+2021-10-31T22:41:02.094Z INFO devtools: RESULT null
+2021-10-31T22:41:03.145Z INFO devtools: COMMAND findElement("css selector", "[id="customer_firstname"]")
+2021-10-31T22:41:03.146Z INFO devtools: RESULT Error: Element with selector "[id="customer_firstname"]" not found
+    at DevToolsDriver.findElement (C:\Users\sodap\OneDrive\Рабочий стол\e2e\node_modules\devtools\build\utils.js:78:16)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:94:5)
+    at Browser.wrappedCommand (C:\Users\sodap\OneDrive\Рабочий стол\e2e\node_modules\devtools\build\devtoolsdriver.js:62:26)
+    at Browser.$ (C:\Users\sodap\OneDrive\Рабочий стол\e2e\node_modules\webdriverio\build\commands\browser\$.js:10:17)
+    at Browser.runCommandWithHooks (C:\Users\sodap\OneDrive\Рабочий стол\e2e\node_modules\@wdio\sync\build\wrapCommand.js:70:25)
+2021-10-31T22:41:03.149Z DEBUG webdriverio: command getProperty was called on an element ("[id="customer_firstname"]") that wasn't found, waiting for it...
+2021-10-31T22:41:03.150Z INFO devtools: COMMAND findElements("css selector", "[id="customer_firstname"]")
+2021-10-31T22:41:03.152Z INFO devtools: RESULT []
+2021-10-31T22:41:03.651Z INFO devtools: COMMAND findElements("css selector", "[id="customer_firstname"]")
+2021-10-31T22:41:03.652Z INFO devtools: RESULT []
+2021-10-31T22:41:04.152Z INFO devtools: COMMAND findElements("css selector", "[id="customer_firstname"]")
+2021-10-31T22:41:04.153Z INFO devtools: RESULT []
+2021-10-31T22:41:04.652Z INFO devtools: COMMAND findElements("css selector", "[id="customer_firstname"]")
+2021-10-31T22:41:04.653Z INFO devtools: RESULT []
+2021-10-31T22:41:05.151Z INFO devtools: COMMAND findElements("css selector", "[id="customer_firstname"]")
+2021-10-31T22:41:05.151Z INFO devtools: RESULT []
+2021-10-31T22:41:05.650Z INFO devtools: COMMAND findElements("css selector", "[id="customer_firstname"]")
+2021-10-31T22:41:05.651Z INFO devtools: RESULT []
+2021-10-31T22:41:06.150Z INFO devtools: COMMAND findElements("css selector", "[id="customer_firstname"]")
+2021-10-31T22:41:06.151Z INFO devtools: RESULT []
+2021-10-31T22:41:06.650Z INFO devtools: COMMAND findElements("css selector", "[id="customer_firstname"]")
+2021-10-31T22:41:06.651Z INFO devtools: RESULT []
+2021-10-31T22:41:07.152Z INFO devtools: COMMAND findElements("css selector", "[id="customer_firstname"]")
+2021-10-31T22:41:07.153Z INFO devtools: RESULT []
+2021-10-31T22:41:07.651Z INFO devtools: COMMAND findElements("css selector", "[id="customer_firstname"]")
+2021-10-31T22:41:07.652Z INFO devtools: RESULT []
+2021-10-31T22:41:08.151Z INFO devtools: COMMAND findElements("css selector", "[id="customer_firstname"]")
+2021-10-31T22:41:08.152Z INFO devtools: RESULT []
+2021-10-31T22:41:08.650Z INFO devtools: COMMAND findElements("css selector", "[id="customer_firstname"]")
+2021-10-31T22:41:08.651Z INFO devtools: RESULT []
+2021-10-31T22:41:09.150Z INFO devtools: COMMAND findElements("css selector", "[id="customer_firstname"]")
+2021-10-31T22:41:09.151Z INFO devtools: RESULT []
+2021-10-31T22:41:09.650Z INFO devtools: COMMAND findElements("css selector", "[id="customer_firstname"]")
+2021-10-31T22:41:09.651Z INFO devtools: RESULT []
+2021-10-31T22:41:10.152Z INFO devtools: COMMAND findElements("css selector", "[id="customer_firstname"]")
+2021-10-31T22:41:10.154Z INFO devtools: RESULT []
+2021-10-31T22:41:10.650Z INFO devtools: COMMAND findElements("css selector", "[id="customer_firstname"]")
+2021-10-31T22:41:10.651Z INFO devtools: RESULT []
+2021-10-31T22:41:11.150Z INFO devtools: COMMAND findElements("css selector", "[id="customer_firstname"]")
+2021-10-31T22:41:11.151Z INFO devtools: RESULT []
+2021-10-31T22:41:11.650Z INFO devtools: COMMAND findElements("css selector", "[id="customer_firstname"]")
+2021-10-31T22:41:11.651Z INFO devtools: RESULT []
+2021-10-31T22:41:12.152Z INFO devtools: COMMAND findElements("css selector", "[id="customer_firstname"]")
+2021-10-31T22:41:12.153Z INFO devtools: RESULT []
+2021-10-31T22:41:12.650Z INFO devtools: COMMAND findElements("css selector", "[id="customer_firstname"]")
+2021-10-31T22:41:12.651Z INFO devtools: RESULT []
+2021-10-31T22:41:13.150Z INFO devtools: COMMAND findElements("css selector", "[id="customer_firstname"]")
+2021-10-31T22:41:13.150Z INFO devtools: RESULT []
+2021-10-31T22:41:13.651Z INFO devtools: COMMAND findElements("css selector", "[id="customer_firstname"]")
+2021-10-31T22:41:13.652Z INFO devtools: RESULT []
+2021-10-31T22:41:14.151Z INFO devtools: COMMAND findElements("css selector", "[id="customer_firstname"]")
+2021-10-31T22:41:14.151Z INFO devtools: RESULT []
+2021-10-31T22:41:14.650Z INFO devtools: COMMAND findElements("css selector", "[id="customer_firstname"]")
+2021-10-31T22:41:14.651Z INFO devtools: RESULT []
+2021-10-31T22:41:15.152Z INFO devtools: COMMAND findElements("css selector", "[id="customer_firstname"]")
+2021-10-31T22:41:15.153Z INFO devtools: RESULT []
+2021-10-31T22:41:15.651Z INFO devtools: COMMAND findElements("css selector", "[id="customer_firstname"]")
+2021-10-31T22:41:15.652Z INFO devtools: RESULT []
+2021-10-31T22:41:16.152Z INFO devtools: COMMAND findElements("css selector", "[id="customer_firstname"]")
+2021-10-31T22:41:16.153Z INFO devtools: RESULT []
+2021-10-31T22:41:16.650Z INFO devtools: COMMAND findElements("css selector", "[id="customer_firstname"]")
+2021-10-31T22:41:16.651Z INFO devtools: RESULT []
+2021-10-31T22:41:17.153Z INFO devtools: COMMAND findElements("css selector", "[id="customer_firstname"]")
+2021-10-31T22:41:17.154Z INFO devtools: RESULT []
+2021-10-31T22:41:17.652Z INFO devtools: COMMAND findElements("css selector", "[id="customer_firstname"]")
+2021-10-31T22:41:17.653Z INFO devtools: RESULT []
+2021-10-31T22:41:18.153Z INFO devtools: COMMAND findElements("css selector", "[id="customer_firstname"]")
+2021-10-31T22:41:18.153Z INFO devtools: RESULT []
+2021-10-31T22:41:18.650Z INFO devtools: COMMAND findElements("css selector", "[id="customer_firstname"]")
+2021-10-31T22:41:18.651Z INFO devtools: RESULT []
+2021-10-31T22:41:19.150Z INFO devtools: COMMAND findElements("css selector", "[id="customer_firstname"]")
+2021-10-31T22:41:19.151Z INFO devtools: RESULT []
+2021-10-31T22:41:19.651Z INFO devtools: COMMAND findElements("css selector", "[id="customer_firstname"]")
+2021-10-31T22:41:19.652Z INFO devtools: RESULT []
+2021-10-31T22:41:20.150Z INFO devtools: COMMAND findElements("css selector", "[id="customer_firstname"]")
+2021-10-31T22:41:20.151Z INFO devtools: RESULT []
+2021-10-31T22:41:20.652Z INFO devtools: COMMAND findElements("css selector", "[id="customer_firstname"]")
+2021-10-31T22:41:20.654Z INFO devtools: RESULT []
+2021-10-31T22:41:21.152Z INFO devtools: COMMAND findElements("css selector", "[id="customer_firstname"]")
+2021-10-31T22:41:21.153Z INFO devtools: RESULT []
+2021-10-31T22:41:21.650Z INFO devtools: COMMAND findElements("css selector", "[id="customer_firstname"]")
+2021-10-31T22:41:21.651Z INFO devtools: RESULT []
+2021-10-31T22:41:22.150Z INFO devtools: COMMAND findElements("css selector", "[id="customer_firstname"]")
+2021-10-31T22:41:22.163Z INFO devtools: RESULT []
+2021-10-31T22:41:22.655Z INFO devtools: COMMAND findElements("css selector", "[id="customer_firstname"]")
+2021-10-31T22:41:22.656Z INFO devtools: RESULT []
+2021-10-31T22:41:23.151Z INFO devtools: COMMAND findElements("css selector", "[id="customer_firstname"]")
+2021-10-31T22:41:23.152Z INFO devtools: RESULT []
+2021-10-31T22:41:23.652Z INFO devtools: COMMAND findElements("css selector", "[id="customer_firstname"]")
+2021-10-31T22:41:23.654Z INFO devtools: RESULT []
+2021-10-31T22:41:24.152Z INFO devtools: COMMAND findElements("css selector", "[id="customer_firstname"]")
+2021-10-31T22:41:24.153Z INFO devtools: RESULT []
+2021-10-31T22:41:24.651Z INFO devtools: COMMAND findElements("css selector", "[id="customer_firstname"]")
+2021-10-31T22:41:24.652Z INFO devtools: RESULT []
+2021-10-31T22:41:25.151Z INFO devtools: COMMAND findElements("css selector", "[id="customer_firstname"]")
+2021-10-31T22:41:25.152Z INFO devtools: RESULT []
+2021-10-31T22:41:25.651Z INFO devtools: COMMAND findElements("css selector", "[id="customer_firstname"]")
+2021-10-31T22:41:25.652Z INFO devtools: RESULT []
+2021-10-31T22:41:26.153Z INFO devtools: COMMAND findElements("css selector", "[id="customer_firstname"]")
+2021-10-31T22:41:26.154Z INFO devtools: RESULT []
+2021-10-31T22:41:26.651Z INFO devtools: COMMAND findElements("css selector", "[id="customer_firstname"]")
+2021-10-31T22:41:26.651Z INFO devtools: RESULT []
+2021-10-31T22:41:27.152Z INFO devtools: COMMAND findElements("css selector", "[id="customer_firstname"]")
+2021-10-31T22:41:27.153Z INFO devtools: RESULT []
+2021-10-31T22:41:27.651Z INFO devtools: COMMAND findElements("css selector", "[id="customer_firstname"]")
+2021-10-31T22:41:27.652Z INFO devtools: RESULT []
+2021-10-31T22:41:28.151Z INFO devtools: COMMAND findElements("css selector", "[id="customer_firstname"]")
+2021-10-31T22:41:28.152Z INFO devtools: RESULT []
+2021-10-31T22:41:28.652Z INFO devtools: COMMAND findElements("css selector", "[id="customer_firstname"]")
+2021-10-31T22:41:28.654Z INFO devtools: RESULT []
+2021-10-31T22:41:29.151Z INFO devtools: COMMAND findElements("css selector", "[id="customer_firstname"]")
+2021-10-31T22:41:29.152Z INFO devtools: RESULT []
+2021-10-31T22:41:29.651Z INFO devtools: COMMAND findElements("css selector", "[id="customer_firstname"]")
+2021-10-31T22:41:29.652Z INFO devtools: RESULT []
+2021-10-31T22:41:30.153Z INFO devtools: COMMAND findElements("css selector", "[id="customer_firstname"]")
+2021-10-31T22:41:30.155Z INFO devtools: RESULT []
+2021-10-31T22:41:30.652Z INFO devtools: COMMAND findElements("css selector", "[id="customer_firstname"]")
+2021-10-31T22:41:30.653Z INFO devtools: RESULT []
+2021-10-31T22:41:31.150Z INFO devtools: COMMAND findElements("css selector", "[id="customer_firstname"]")
+2021-10-31T22:41:31.151Z INFO devtools: RESULT []
+2021-10-31T22:41:31.650Z INFO devtools: COMMAND findElements("css selector", "[id="customer_firstname"]")
+2021-10-31T22:41:31.651Z INFO devtools: RESULT []
+2021-10-31T22:41:32.150Z INFO devtools: COMMAND findElements("css selector", "[id="customer_firstname"]")
+2021-10-31T22:41:32.151Z INFO devtools: RESULT []
+2021-10-31T22:41:32.651Z INFO devtools: COMMAND findElements("css selector", "[id="customer_firstname"]")
+2021-10-31T22:41:32.652Z INFO devtools: RESULT []
+2021-10-31T22:41:33.165Z INFO devtools: COMMAND findElements("css selector", "[id="customer_firstname"]")
+2021-10-31T22:41:33.167Z INFO devtools: COMMAND deleteSession()
+2021-10-31T22:41:33.168Z INFO devtools: RESULT []
+2021-10-31T22:41:33.169Z INFO devtools: RESULT null
