@@ -32,8 +32,15 @@
       "assign" : "alias"
     }
   },
-
-  "clientsData" : {
+  "validationMessages" : {
+    "phone_alert": "You must register at least one phone number.",
+    "lastname_alert": "lastname is required.",
+    "firstname_alert": "firstname is required.",
+    "password_alert": "passwd is required.",
+    "address_alert": "address1 is required.",
+    "city_alert": "city is required.",
+    "zip_alert": "The Zip/Postal code you've entered is invalid. It must follow this format: 00000",
+    "state_alert": "This country requires you to choose a State."
 
   }
 }

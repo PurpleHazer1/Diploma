@@ -6,7 +6,6 @@ bottlejs.factory('PageObject', function () {
             const diplomaPo = require('./diploma/diploma.po.js')
             return new diplomaPo()
         }
-
     };
 });
 
