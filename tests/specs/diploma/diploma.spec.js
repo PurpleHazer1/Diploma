@@ -1,29 +1,29 @@
 const pageObject = require('../../../page_objects/pages.js').container.PageObject;
 const diploma = pageObject.getDiploma()
-const dataJSON = require('../../data/info.json')
+const dataJSON = require('../../data/dataJSON.json')
 const faker = require('faker')
 
 describe('Spec for diploma project', () => {
 
     let link = 'http://automationpractice.com/index.php'
 
-        let info = {
-            fakerNameFirstName: faker.name.firstName(),
-            fakerNameLastName: faker.name.lastName(),
-            password: Math.floor(Math.random() * 100000000),
-            email: 'autotest' + Math.floor(Math.random() * 100000000) + '@test.com',
-            street: faker.address.streetName(),
-            city: faker.address.city(),
-            zip: '00000',
-            phone: Math.floor(Math.random() * 10000000000000),
-            company: faker.company.companyName()
-        }
+    let info = {
+        fakerNameFirstName: faker.name.firstName(),
+        fakerNameLastName: faker.name.lastName(),
+        password: Math.floor(Math.random() * 100000000),
+        email: 'autotest' + Math.floor(Math.random() * 100000000) + '@test.com',
+        street: faker.address.streetName(),
+        city: faker.address.city(),
+        zip: '00000',
+        phone: Math.floor(Math.random() * 10000000000000),
+        company: faker.company.companyName()
+    }
 
-        beforeEach(() => {
-            browser.url(link)
-        })
+    beforeEach(() => {
+        browser.url(link)
+    })
 
-    it('Create account and verify data', function () {
+    it('Validation', function () {
 
         // Login
         diploma.clickLoginBtn()
@@ -73,7 +73,5 @@ describe('Spec for diploma project', () => {
         diploma.checkAddressInfoForm(info)
 
     })
-
-
 
 });

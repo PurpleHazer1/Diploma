@@ -5,7 +5,7 @@ class DiplomaPo {
      * Define Elements
      */
 
-    get loginBtn() {
+    get SignInBtn() {
         return $('.login')
     }
 
@@ -30,10 +30,6 @@ class DiplomaPo {
         return $('[id="' + field + '"]')
     }
 
-    dropdownOption(dropdown, day) {
-        return $('#' + dropdown + ' option[value="' + day + '"]')
-    }
-
     get submitBtn() {
         return $('#submitAccount')
     }
@@ -46,7 +42,7 @@ class DiplomaPo {
         return $('.logout')
     }
 
-    get signInBtn() {
+    get loginBtn() {
         return $('#SubmitLogin')
     }
 
@@ -73,7 +69,7 @@ class DiplomaPo {
     //clicks
 
     clickLoginBtn() {
-        commonHelper.waitAndClick(this.loginBtn)
+        commonHelper.waitAndClick(this.SignInBtn)
     }
 
     clickCreateBtn() {
@@ -94,7 +90,7 @@ class DiplomaPo {
     }
 
     clickSignInBtn() {
-        commonHelper.waitAndClick(this.signInBtn)
+        commonHelper.waitAndClick(this.loginBtn)
     }
 
     clickSubmitBtn() {
@@ -143,23 +139,23 @@ class DiplomaPo {
         this.addressInfo(value.company).waitForDisplayed()
     }
 
-    checkAlerts(info) {
+    checkAlerts(dataJSON) {
         expect
-        (this.alertMessages[0]).toHaveText(info.validationMessages.phone_alert)
+        (this.alertMessages[0]).toHaveText(dataJSON.validationMessages.phone_alert)
         expect
-        (this.alertMessages[1]).toHaveText(info.validationMessages.lastname_alert)
+        (this.alertMessages[1]).toHaveText(dataJSON.validationMessages.lastname_alert)
         expect
-        (this.alertMessages[2]).toHaveText(info.validationMessages.firstname_alert)
+        (this.alertMessages[2]).toHaveText(dataJSON.validationMessages.firstname_alert)
         expect
-        (this.alertMessages[3]).toHaveText(info.validationMessages.password_alert)
+        (this.alertMessages[3]).toHaveText(dataJSON.validationMessages.password_alert)
         expect
-        (this.alertMessages[4]).toHaveText(info.validationMessages.address_alert)
+        (this.alertMessages[4]).toHaveText(dataJSON.validationMessages.address_alert)
         expect
-        (this.alertMessages[5]).toHaveText(info.validationMessages.city_alert)
+        (this.alertMessages[5]).toHaveText(dataJSON.validationMessages.city_alert)
         expect
-        (this.alertMessages[6]).toHaveText(info.validationMessages.zip_alert)
+        (this.alertMessages[6]).toHaveText(dataJSON.validationMessages.zip_alert)
         expect
-        (this.alertMessages[7]).toHaveText(info.validationMessages.state_alert)
+        (this.alertMessages[7]).toHaveText(dataJSON.validationMessages.state_alert)
     }
 
     // function claster
@@ -190,8 +186,6 @@ class DiplomaPo {
         this.fillCreateField(id.fields.addressInfo.homePhone, value.phone)
         this.fillCreateField(id.fields.addressInfo.assign, value.street)
     }
-
-
 }
 
 module.exports = DiplomaPo;
